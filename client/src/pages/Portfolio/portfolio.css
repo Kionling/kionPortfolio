@@ -1,0 +1,44 @@
+#portfolioNav {
+  font-weight: 900;
+  color: black;
+  font-size: 60px;
+}
+
+
+#spanWeight {
+    font-weight: 750;
+}
+
+#cardDiv {
+    border-radius: 20px;
+}
+
+#projectHIKRDiv {
+margin: 0;
+}
+
+#portfolioBanner {
+    height: 700px;
+    background-image: url(../Portfolio/images/skies-ani.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerTitle {
+    margin-bottom: 50px;
+}
+
+#bannerImage {
+    width: 20%;
+}
+
+#parallaxText {
+    text-align: center;
+}
+
+#seeMore {
+    color: white;
+    font-weight: 900;
+    margin-top: 10%;
+}

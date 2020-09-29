@@ -1,0 +1,86 @@
+#current-date {
+  text-align: right;
+  margin-top: 1.9466666667rem;
+  font-weight: 900;
+  color: #1de9b6;
+}
+#nav-banner {
+  font-weight: 900;
+  color: black;
+  font-size: 60px;
+}
+
+#nav-mobile {
+    font-weight: 900;
+}
+
+#firstBanner {
+    margin: 0;
+}
+
+#firstImage {
+    height: 700px;
+    background-image: url(../Home/image/skies-ani.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#HIKR-image {
+    width: 23%;
+}
+
+#firstBanText {
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+#portfolioBan {
+    background-image: url(../Home/image/PortfolioBan.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 286px;
+}
+
+#portfolioRow {
+    margin: 0;
+    height: 286px;
+}
+
+#portfolioLinks{
+    height: 286px;
+}
+
+.Bold {
+    font-weight: 900;
+}
+
+#exploreTag {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 120px;
+    
+}
+
+#contactRow {
+    margin: 0;
+}
+
+#contactBanner {
+    background-image: url(../Home/image/contactBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 286px;
+}
+
+#aboutRow {
+    margin: 0;
+    height: 286px;
+}
+
+#aboutBanner {
+    background-image: url(../Home/image/aboutBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 286px;
+}

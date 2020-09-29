@@ -1,0 +1,37 @@
+.bold800 {
+    font-weight: 800;
+}
+
+#AboutNav {
+    font-weight: 900;
+    color: black;
+    font-size: 60px;
+}
+#AboutBanner {
+    margin: 0;
+}
+
+#AboutDiv {
+    height: 600px;
+}
+
+#from {
+font-weight: 900;
+margin-top: 9%;
+margin-left: 23%;
+font-size: 3em;
+}
+
+#raised {
+font-weight: 900;
+margin-left: 23%;
+font-size: 3em;
+}
+
+#road {
+    margin-top: 250px;
+}
+
+#AboutFooter {
+margin-top: 250px;
+}
