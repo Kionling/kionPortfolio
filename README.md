@@ -1,4 +1,4 @@
-# kionPortfolio
+# Daniel 'Kionling' Jauregui's Portfolio
 This project includes my portfolio page that contains the various projects I have worked on. It's layout is highly mobile responsive to the best of its abilities. This page is continuosly being updated as more projects and ideas are created. If there are any issues please refer to the issues page on the pages github repository and post an issue. Feedback will always be accepted. 
 
 # Site Picture
