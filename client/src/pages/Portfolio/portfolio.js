@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import M from "materialize-css";
 import Styl from "./portfolio.css";
 import Danny from "./images/Dan.jpg";
@@ -10,6 +10,12 @@ import Weather from "./images/weatherDash.png";
 import Train from "./images/trainMoving.gif";
 import { Link } from "react-router-dom";
 function Portfolio() {
+  useEffect(() => {
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, {});
+    });
+  }, []);  
   return (
     <div>
       <div class="container">

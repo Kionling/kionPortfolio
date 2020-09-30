@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/portfolio" component={Portfolio}/>
-        <Route exact path="/aboutMe" component={Contact}/>
+        <Route exact path="/aboutMe" component={About}/>
         <Route component={NoMatch}/>
 
       </Switch>
