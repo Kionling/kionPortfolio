@@ -42,24 +42,8 @@ function Contact() {
             </ul>
           </div>
         </nav>
-      </div>
-
-      <div class="" id="instagram">
-        
-      </div>
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header Bold">
-            <a href="https://www.instagram.com/kionling1" target="_blank">
-              Instagram
-            </a>
-          </h2>
-          <p class="grey-text text-darken-3 lighten-3 Bold">
-            Follow up on the videos I post regularly. I respond frequently to
-            DMs and messages.
-          </p>
-        </div>
-      </div>
+      </div>    
+    
       <div id="github">
         
       </div>
@@ -71,7 +55,8 @@ function Contact() {
             </a>
           </h2>
           <p class="grey-text text-darken-3 lighten-3 Bold">
-            Here I frequently update and create projects that I work on.
+            Here I frequently create, update, and work on various projects I have created through the years. All projects will
+            contain a comprehensive README with descriptions of all projects.
           </p>
         </div>
       </div>
@@ -89,7 +74,8 @@ function Contact() {
             </a>
           </h2>
           <p class="grey-text text-darken-3 lighten-3 Bold">
-            Connect with me on LinkedIn.
+            Connect with me on LinkedIn! I post recent project updates and my coding habits. My skills, education, and experience
+            will be located with this page.
           </p>
         </div>
       </div>
@@ -98,29 +84,12 @@ function Contact() {
           <div class="row ">
             <div class="col l6 s12">
               <h5 class="white-text">Daniel Jauregui</h5>
-              <p class="grey-text text-lighten-4">Web Dev Guy</p>
+              <p class="grey-text text-lighten-4">Full Stack Web Developer/Software Engineer</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Support Me!</h5>
               <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/kionling1/"
-                    class="white-text"
-                    target="_blank"
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.twitter.com/kionling1"
-                    class="white-text"
-                    target="_blank"
-                  >
-                    Twitter
-                  </a>
-                </li>
+               
                 <li>
                   <a
                     href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"

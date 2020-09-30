@@ -259,29 +259,12 @@ function Portfolio() {
           <div class="row ">
             <div class="col l6 s12">
               <h5 class="white-text">Daniel Jauregui</h5>
-              <p class="grey-text text-lighten-4">Web Dev Guy</p>
+              <p class="grey-text text-lighten-4">Full Stack Web Developer/Software Engineer</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Support Me!</h5>
               <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/kionling1/"
-                    class="white-text"
-                    target="_blank"
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.twitter.com/kionling1"
-                    class="white-text"
-                    target="_blank"
-                  >
-                    Twitter
-                  </a>
-                </li>
+                
                 <li>
                   <a
                     href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
