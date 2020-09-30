@@ -5,6 +5,7 @@ import Koi from "./image/koi.gif";
 import HIKR from "./image/signinHikr.png";
 import { Link } from "react-router-dom";
 
+
 function Home() {
   return (
     <div>
@@ -110,11 +111,9 @@ function Home() {
         </div>
       </div>
 
-      <div class="parallax-container">
-        <h1 className="white-text Bold">Peace.</h1>
-        <div class="parallax">
-          <img src={Koi} alt="Aesthetic koi fish pond" />
-        </div>
+      <div class="" id="uniBanner">
+        <h1 className="white-text Bold" id="peaceText">Peace.</h1>
+        
       </div>
       <footer class="page-footer #7c4dff deep-purple accent-2">
         <div class="container">

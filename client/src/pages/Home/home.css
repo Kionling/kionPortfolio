@@ -84,3 +84,15 @@
     background-size: cover;
     height: 286px;
 }
+
+#uniBanner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-image: url(../Home/image/koi.gif) ;
+}
+
+#peaceText {
+    margin: 0;
+}

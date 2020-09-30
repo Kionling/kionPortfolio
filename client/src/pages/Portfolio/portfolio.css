@@ -42,3 +42,11 @@ margin: 0;
     font-weight: 900;
     margin-top: 10%;
 }
+
+#wantToSee {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-image: url(../Portfolio//images/trainMoving.gif) ;
+}

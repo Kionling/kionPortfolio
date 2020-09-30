@@ -13,9 +13,9 @@ function Contact() {
           <div class="col s9">
             {" "}
             <h3 id="contact-nav">
-              <a href="/" class="black-text">
+              <Link to="/" class="black-text">
                 Contact Me!
-              </a>
+              </Link>
             </h3>
           </div>
           <div class="col s3" id="current-date"></div>
@@ -25,29 +25,27 @@ function Contact() {
             <a href="#" class="brand-logo center"></a>
             <ul id="nav-mobile" class="left">
               <li>
-                <a href="/" class="black-text bold800">
+                <Link to="/" className="black-text bold800">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio" class="black-text bold800">
+                <Link to="/portfolio" className="black-text bold800">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/aboutMe" class="black-text bold800">
+                <Link to="/aboutMe" class="black-text bold800">
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src={Contact1} alt="" />
-        </div>
+      <div class="" id="instagram">
+        
       </div>
       <div class="section white">
         <div class="row container">
@@ -62,10 +60,8 @@ function Contact() {
           </p>
         </div>
       </div>
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src={Contact2} />
-        </div>
+      <div id="github">
+        
       </div>
       <div class="section white">
         <div class="row container">
@@ -79,10 +75,8 @@ function Contact() {
           </p>
         </div>
       </div>
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src={Contact3} />
-        </div>
+      <div id="linkedIn">
+        
       </div>
       <div class="section white">
         <div class="row container">

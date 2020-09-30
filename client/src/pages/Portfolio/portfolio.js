@@ -23,9 +23,9 @@ function Portfolio() {
           <div class="col s9">
             {" "}
             <h3 id="portfolioNav">
-              <a href="/" class="black-text">
+              <Link to="/" class="black-text">
                 The Project Board.
-              </a>
+              </Link>
             </h3>
           </div>
           <div class="col s3" id="current-date"></div>
@@ -35,19 +35,19 @@ function Portfolio() {
             <a href="#" class="brand-logo center"></a>
             <ul id="nav-mobile" class="left">
               <li>
-                <a href="/" class="black-text bold800 ">
+                <Link to="/" class="black-text bold800 ">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" class="black-text bold800">
+                <Link to="/contact" class="black-text bold800">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/aboutMe" class="black-text bold800">
+                <Link to="/aboutMe" class="black-text bold800">
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -244,15 +244,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div class="parallax-container" id="parallaxText">
-        <div class="parallax">
-          <img src={Train} alt="train moving" />
-        </div>
+      <div class="parallax-container" id="wantToSee">
+        <div id="parallaxText">
         <h1 id="seeMore">
-          <a href="https://github.com/kionling" class="white-text">
+          <a  href="https://github.com/kionling" class="white-text">
             Want to see more? Click here!
           </a>
         </h1>
+        </div>
       </div>
 
       <footer class="page-footer #ffc400 amber accent-3">

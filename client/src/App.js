@@ -16,7 +16,6 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path="/aboutMe" component={About}/>
         <Route component={NoMatch}/>
-
       </Switch>
     </Router>
   );
