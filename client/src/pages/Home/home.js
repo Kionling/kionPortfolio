@@ -60,7 +60,7 @@ function Home() {
       <div class="row center" id="firstBanner">
         <div id="firstImage" class="col l12 s12 #000000 black">
             <div  id="content-div">
-          <a href="https://hikr-journal.herokuapp.com/">
+          <a href="https://shoppr-ai.herokuapp.com/">
             <img src={Shoppr} id="Shoppr-image"  alt="Shoppr project logo" />
           </a>
           <Link to="/portfolio">

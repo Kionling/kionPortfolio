@@ -9,6 +9,8 @@ import PC from "./images/pc.png";
 import Weather from "./images/weatherDash.png";
 import Train from "./images/trainMoving.gif";
 import { Link } from "react-router-dom";
+import Shoppr from "../Home/image/shoppr (1).png";
+
 function Portfolio() {
   useEffect(() => {
     document.addEventListener('DOMContentLoaded', function() {
@@ -86,16 +88,20 @@ function Portfolio() {
       </div>
 
       <div class="row center" id="projectHIKRDiv">
-        <div id="portfolioBanner" class="col l12 #000000 black">
-          <a href="https://hikr-journal.herokuapp.com/">
-            <img src={HIKR} id="bannerImage" alt="HIKR project logo" />
+        
+        <div id="portfolioBanner" class="col l12 s12 #000000 black">
+        <div id="content-div">
+          <a href="https://shoppr-ai.herokuapp.com/">
+            <img src={Shoppr} id="Shoppr-image" alt="Shoppr project logo" />
           </a>
           <a href="/portfolio">
             <h2 id="bannerTitle" class="white-text Bold">
-              Project HIKR.
+              Project Shoppr<span id="period">.</span>
             </h2>
           </a>
+          </div>
         </div>
+        
       </div>
 
       <div class="container">

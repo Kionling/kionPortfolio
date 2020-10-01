@@ -27,10 +27,10 @@
 }
 
 #Shoppr-image {
-    width: 400px; /* width of container */
+    width: 300px; /* width of container */
     height: 100px; /* height of container */
     object-fit: cover;
-    object-position:  10px;  
+    object-position:  -20px ;  
 }
 
 
@@ -108,6 +108,7 @@
     font-weight: 900;
     animation: color-change 1s infinite;
 }
+
 
 @keyframes color-change {
     0% { color: #4285F4; }
