@@ -20,19 +20,23 @@
 
 #firstImage {
     height: 700px;
-    background-image: url(../Home/image/skies-ani.gif);
+    background-image: url(../Home/image/welcomeBan.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#HIKR-image {
-    width: 23%;
+#Shoppr-image {
+    width: 400px; /* width of container */
+    height: 100px; /* height of container */
+    object-fit: cover;
+    object-position:  10px;  
 }
 
+
 #firstBanText {
-    margin-bottom: 50px;
     font-weight: 900;
+    margin: 0;
 }
 
 #portfolioBan {
@@ -96,3 +100,19 @@
 #peaceText {
     margin: 0;
 }
+
+#content-div {
+    margin-top: 200px;
+}
+#period {
+    font-weight: 900;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #4285F4; }
+    25% { color:#DB4437; }
+    50% { color: #F4B400; }
+    75% { color: #0F9D58; }
+    100% { color: #4285F4; }
+  }

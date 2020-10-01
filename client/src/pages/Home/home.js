@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import M from "materialize-css";
 import Styles from "./home.css";
 import Koi from "./image/koi.gif";
-import HIKR from "./image/signinHikr.png";
+import Shoppr from "./image/shoppr (1).png";
 import { Link } from "react-router-dom";
 
 
@@ -59,14 +59,16 @@ function Home() {
 
       <div class="row center" id="firstBanner">
         <div id="firstImage" class="col l12 s12 #000000 black">
-          <Link to="https://hikr-journal.herokuapp.com/">
-            <img src={HIKR} id="HIKR-image" alt="HIKR project logo" />
-          </Link>
+            <div  id="content-div">
+          <a href="https://hikr-journal.herokuapp.com/">
+            <img src={Shoppr} id="Shoppr-image"  alt="Shoppr project logo" />
+          </a>
           <Link to="/portfolio">
             <h2 id="firstBanText" class="white-text">
-              The Newest Project.
+              The Newest Project<span id="period">.</span>
             </h2>
           </Link>
+        </div>
         </div>
       </div>
 
