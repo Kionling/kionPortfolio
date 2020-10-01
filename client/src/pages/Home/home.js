@@ -25,15 +25,7 @@ function Home() {
           <div class="nav-wrapper #ffffff white ">
             <a href="#" class="brand-logo center"></a>
             <ul id="nav-mobile" class="left">
-              <li>
-                <a
-                  href="https://www.instagram.com/kionling1/"
-                  class="black-text"
-                  target="_blank"
-                >
-                  Instagram
-                </a>
-              </li>
+              
               <li>
                 <a
                   href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
