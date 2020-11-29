@@ -1,25 +1,28 @@
 import React from "react";
 import ResumeStyles from "./resume.css";
 import { Link } from "react-router-dom";
-import Moment from "react-moment"
+import moment from "moment"
 function Resume() {
+
   return (
     <div>
       <div class="container">
         <div class="row">
           <div class="col s9">
-            {" "}
+        
             <h3 id="contact-nav">
               <Link to="/" class="black-text">
                 Resume
               </Link>
             </h3>
+           
           </div>
-          <div class="col s3" id="current-date"></div>
+          <div class="col s3" id="current-date">{moment().format("MMMM Do YYYY")}</div>
         </div>
         <nav class="z-depth-0">
           <div class="nav-wrapper #ffffff white ">
             <a href="#" class="brand-logo center"></a>
+           
             <ul id="nav-mobile" class="left">
               <li>
                 <Link to="/" className="black-text bold800">
