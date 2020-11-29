@@ -54,32 +54,20 @@ function About() {
       <div class="container" id="road">
         <h2 className="bold800">Graduated from Lathrop High School in 2019.</h2>
         <p className="bold800">
-          I didn't know where my life was heading as soon as I graduated High
-          School. I applied to two colleges, San Jose State and San Francisco
-          State.
+          From August 2015 to May 2019 
         </p>
-        <p className="bold800">
-          I got accepted to both colleges and I chose to go to San Jose State.
-        </p>
-        <p className="bold800">
-          I did one semester at San Jose State before I realized that it wasn't
-          the place for me at the time.
-        </p>
-        <p className="bold800">
-          I then enrolled into{" "}
+        <p className="bold800">Familar with rigourous courses such as AP Calculus, AP Chemistry, and AP Biology.</p>
+       <p  className="bold800">Consistent 3.0 GPA Student</p>
           <h3 className="bold800">
-            UC Berkeley's Full Stack Web Development program
+            Graduated from UC Berkeley's Full Stack Web Development Coding Bootcamp
           </h3>
-          <p className="bold800">And am going to graduate soon.</p>
+          <p className="bold800">Graduated receiving certification in my proficiency in Computer Science, Programming Technologies, and Full Stack Web Development.</p>
+        
+        <p className="bold800">
+          Passionate Developer always looking to exceed the comfort zones within my person.
         </p>
         <p className="bold800">
-          I found the line of work I am most passionate about. I feel like I
-          could thrive here. Grow. Become the individual I want to become.
-        </p>
-        <p className="bold800">
-          I will continously grow the portfolio as time goes on. Hopefully, to
-          any future employer reading this, you take the opportunity to reach
-          out to me.
+          Actively looking for entry-level and internship positions that will allow me to grow as a Developer and person.
         </p>
         <p className="bold800">The sky is the limit.</p>
       </div>
