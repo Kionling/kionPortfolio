@@ -10,6 +10,7 @@ import Weather from "./images/weatherDash.png";
 import Train from "./images/trainMoving.gif";
 import { Link } from "react-router-dom";
 import Shoppr from "../Home/image/shoppr (1).png";
+import moment from "moment"
 
 function Portfolio() {
   useEffect(() => {
@@ -30,7 +31,8 @@ function Portfolio() {
               </Link>
             </h3>
           </div>
-          <div class="col s3" id="current-date"></div>
+          <div class="col s3" id="current-date">{moment().format("MMMM Do YYYY")}</div>
+
         </div>
         <nav class="z-depth-0">
           <div class="nav-wrapper #ffffff white ">

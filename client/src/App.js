@@ -7,6 +7,7 @@ import Portfolio from "../src/pages/Portfolio/portfolio"
 import Contact from "../src/pages/Contact/contact"
 import About from "../src/pages/About/about"
 import NoMatch from "../src/pages/NoMatch/noMatch"
+import Resume from "../src/pages/Resume/resume"
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path="/aboutMe" component={About}/>
+        <Route exact path="/resume" component={Resume} />
         <Route component={NoMatch}/>
       </Switch>
     </Router>
