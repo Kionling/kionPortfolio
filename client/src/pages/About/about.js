@@ -69,7 +69,7 @@ function About() {
         <p className="bold800">
           Actively looking for entry-level and internship positions that will allow me to grow as a Developer and person.
         </p>
-        <p className="bold800">The sky is the limit.</p>
+        <p className="bold800"></p>
       </div>
       <footer class="page-footer #1de9b6 teal accent-3" id="AboutFooter">
         <div class="container">
