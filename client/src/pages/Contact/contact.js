@@ -5,6 +5,7 @@ import Contact1 from "./images/contact1.gif";
 import Contact2 from "./images/2fd522ba5ca93afdc3ef65193422f377.gif";
 import Contact3 from "./images/db4d71776f520fac4a00d0fb20cb518c.gif";
 import { Link } from "react-router-dom";
+import moment from "moment"
 function Contact() {
   return (
     <div>
@@ -18,7 +19,7 @@ function Contact() {
               </Link>
             </h3>
           </div>
-          <div class="col s3" id="current-date"></div>
+          <div class="col s3" id="current-date">{moment().format("MMMM Do YYYY")}</div>
         </div>
         <nav class="z-depth-0">
           <div class="nav-wrapper #ffffff white ">

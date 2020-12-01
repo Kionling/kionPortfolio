@@ -4,7 +4,7 @@ import Styles from "./home.css";
 import Koi from "./image/koi.gif";
 import Shoppr from "./image/shoppr (1).png";
 import { Link } from "react-router-dom";
-
+import moment from "moment";
 function Home() {
   return (
     <div>
@@ -18,30 +18,29 @@ function Home() {
               </Link>
             </h3>
           </div>
-          <div class="col s3" id="current-date"></div>
+          <div class="col s3" id="current-date">
+            {moment().format("MMMM Do YYYY")}
+          </div>
         </div>
         <nav class="z-depth-0">
           <div class="nav-wrapper #ffffff white ">
             <a href="#" class="brand-logo center"></a>
             <ul id="nav-mobile" class="left">
+              
               <li>
-                <a
-                  href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
-                  class="black-text"
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>
+                <Link to="/portfolio" className="black-text">Portfolio</Link>
               </li>
               <li>
-                <a
-                  href="https://github.com/Kionling"
-                  class="black-text"
-                  target="_blank"
-                >
-                  Github
-                </a>
+                <Link to="/about" className="black-text">About</Link>
               </li>
+              <li>
+                <Link to="/contact" className="black-text">Contact</Link>
+              </li>
+              <li>
+                <Link to="/resume" className="black-text">Resume</Link>
+              </li>
+
+              
             </ul>
           </div>
         </nav>
