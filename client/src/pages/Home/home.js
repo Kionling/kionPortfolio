@@ -5,7 +5,6 @@ import Koi from "./image/koi.gif";
 import Shoppr from "./image/shoppr (1).png";
 import { Link } from "react-router-dom";
 
-
 function Home() {
   return (
     <div>
@@ -25,7 +24,6 @@ function Home() {
           <div class="nav-wrapper #ffffff white ">
             <a href="#" class="brand-logo center"></a>
             <ul id="nav-mobile" class="left">
-              
               <li>
                 <a
                   href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
@@ -51,16 +49,16 @@ function Home() {
 
       <div class="row center" id="firstBanner">
         <div id="firstImage" class="col l12 s12 #000000 black">
-            <div  id="content-div">
-          <a href="https://shoppr-ai.herokuapp.com/">
-            <img src={Shoppr} id="Shoppr-image"  alt="Shoppr project logo" />
-          </a>
-          <Link to="/portfolio">
-            <h2 id="firstBanText" class="white-text">
-              The Newest Project<span id="period">.</span>
-            </h2>
-          </Link>
-        </div>
+          <div id="content-div">
+            <a href="https://shoppr-ai.herokuapp.com/">
+              <img src={Shoppr} id="Shoppr-image" alt="Shoppr project logo" />
+            </a>
+            <Link to="/portfolio">
+              <h2 id="firstBanText" class="white-text">
+                The Newest Project<span id="period">.</span>
+              </h2>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -104,22 +102,37 @@ function Home() {
           </p>
         </div>
       </div>
+      <div class="row" id="contactRow">
+        <div id="portfolioLinks" class="col s5 l4  #81c784 green lighten-2">
+          <h4 className="Bold">Resume</h4>
+
+          <p class="right Bold" id="exploreTag">
+            <Link to="/resume" class="black-text">
+              Explore→
+            </Link>
+          </p>
+        </div>
+
+        <div class="col s7 l8 " id="resumeBanner"></div>
+      </div>
 
       <div class="" id="uniBanner">
-        <h1 className="white-text Bold" id="peaceText">Peace.</h1>
-        
+        <h1 className="white-text Bold" id="peaceText">
+          Peace.
+        </h1>
       </div>
       <footer class="page-footer #7c4dff deep-purple accent-2">
         <div class="container">
           <div class="row ">
             <div class="col l6 s12">
               <h5 class="white-text">Daniel Jauregui</h5>
-              <p class="grey-text text-lighten-4">Full Stack Web Developer/Software Engineer</p>
+              <p class="grey-text text-lighten-4">
+                Full Stack Web Developer/Software Engineer
+              </p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Support Me!</h5>
               <ul>
-              
                 <li>
                   <a
                     href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
