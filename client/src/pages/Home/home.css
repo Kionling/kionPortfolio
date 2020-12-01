@@ -40,7 +40,7 @@
 }
 
 #portfolioBan {
-    background-image: url(../Home/image/PortfolioBan.jpg);
+    background-image: url(../Home/image/portfolioImage.jpg);
     background-position: center;
     background-size: cover;
     height: 286px;
@@ -83,7 +83,7 @@
 }
 
 #aboutBanner {
-    background-image: url(../Home/image/aboutBanner.jpg);
+    background-image: url(../Home/image/aboutMeimage.jpg);
     background-position: center;
     background-size: cover;
     height: 286px;
@@ -94,7 +94,7 @@
     background-size: cover;
     background-position: center;
     height: 500px;
-    background-image: url(../Home/image/koi.gif) ;
+    background-image: url(../Home/image/newUniBane.gif) ;
 }
 
 #peaceText {
@@ -116,4 +116,11 @@
     50% { color: #F4B400; }
     75% { color: #0F9D58; }
     100% { color: #4285F4; }
+  }
+
+  #resumeBanner {
+    background-image: url(../Home/image/officeBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 286px;
   }

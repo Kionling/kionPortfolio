@@ -1,6 +1,7 @@
 import React from "react";
 import Style from "./about.css";
 import { Link } from "react-router-dom";
+import moment from "moment"
 function About() {
   return (
     <div>
@@ -14,7 +15,7 @@ function About() {
               </Link>
             </h3>
           </div>
-          <div class="col s3" id="current-date"></div>
+          <div class="col s3" id="current-date">{moment().format("MMMM Do YYYY")}</div>
         </div>
         <nav class="z-depth-0">
           <div class="nav-wrapper #ffffff white ">
@@ -35,18 +36,23 @@ function About() {
                   Portfolio
                 </Link>
               </li>
+              <li>
+                <Link className="bold800" to="/resume" class="black-text">
+                  Resume
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div class="row" id="AboutBanner">
+      <div class="row " id="AboutBanner">
         <div id="AboutDiv" class="col l12 #000000 black">
           <h2 class="white-text col s6 center" id="from">
             From San Jose, California.{" "}
           </h2>
           <h2 class="white-text col s6 center" id="raised">
-            Raised in Lathrop, California
+            Raised in Lathrop, California.
           </h2>
         </div>
       </div>
