@@ -9,4 +9,4 @@ function contactForm(){
     )
 }
 
-export default contactForm
+export default contactForm;
