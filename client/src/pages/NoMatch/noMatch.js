@@ -12,6 +12,7 @@ function NoMatch() {
       <div class="third-text">Sorry for the inconvinience. </div>
       <div class="fourth-text">Please feel free to leave this page.</div>
       <div class="fifth-text">Go <Link to="/">Home</Link></div>
+      
     </div>
   );
 }

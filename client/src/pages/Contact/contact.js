@@ -5,7 +5,7 @@ import Contact1 from "./images/contact1.gif";
 import Contact2 from "./images/2fd522ba5ca93afdc3ef65193422f377.gif";
 import Contact3 from "./images/db4d71776f520fac4a00d0fb20cb518c.gif";
 import { Link } from "react-router-dom";
-import contactForm from "../../Components/contactForm"
+import ContactForm from "../../Components/ContactForm/index";
 import moment from "moment";
 function Contact() {
   return (
@@ -43,44 +43,19 @@ function Contact() {
                   About
                 </Link>
               </li>
+              <li>
+                <Link to="/resume" class="black-text bold800">
+                  Resume
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
-<div><contactForm></contactForm></div>
-      <div id="github"></div>
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header Bold">
-            <a href="https://www.github.com/kionling" target="_blank">
-              Github
-            </a>
-          </h2>
-          <p class="grey-text text-darken-3 lighten-3 Bold">
-            Here I frequently create, update, and work on various projects I
-            have created through the years. All projects will contain a
-            comprehensive README with descriptions of all projects.
-          </p>
-        </div>
+      <div className="z-depth-3 container ">
+        <ContactForm></ContactForm>
       </div>
-      <div id="linkedIn"></div>
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header Bold">
-            <a
-              href="https://www.linkedin.com/in/daniel-jauregui-velazquez-b64a80172/"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-          </h2>
-          <p class="grey-text text-darken-3 lighten-3 Bold">
-            Connect with me on LinkedIn! I post recent project updates and my
-            coding habits. My skills, education, and experience will be located
-            with this page.
-          </p>
-        </div>
-      </div>
+
       <footer class="page-footer #00e5ff cyan accent-3">
         <div class="container">
           <div class="row ">
