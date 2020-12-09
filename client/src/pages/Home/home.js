@@ -31,7 +31,7 @@ function Home() {
                 <Link to="/portfolio" className="black-text">Portfolio</Link>
               </li>
               <li>
-                <Link to="/about" className="black-text">About</Link>
+                <Link to="/aboutMe" className="black-text">About</Link>
               </li>
               <li>
                 <Link to="/contact" className="black-text">Contact</Link>
@@ -102,7 +102,7 @@ function Home() {
         </div>
       </div>
       <div class="row" id="contactRow">
-        <div id="portfolioLinks" class="col s5 l4  #81c784 green lighten-2">
+        <div id="portfolioLinks" class="col s5 l4  #f57c00 orange darken-2">
           <h4 className="Bold">Resume</h4>
 
           <p class="right Bold" id="exploreTag">
