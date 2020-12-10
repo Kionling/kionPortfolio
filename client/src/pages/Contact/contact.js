@@ -52,8 +52,10 @@ function Contact() {
           </div>
         </nav>
       </div>
-      <div className="z-depth-3 container ">
-        <ContactForm></ContactForm>
+      <div id="contactFormBanner">
+        <div className=" container ">
+          <ContactForm></ContactForm>
+        </div>
       </div>
 
       <footer class="page-footer #00e5ff cyan accent-3">

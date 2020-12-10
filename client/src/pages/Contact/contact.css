@@ -28,3 +28,10 @@
     background-image: url(../Contact/images/db4d71776f520fac4a00d0fb20cb518c.gif) ;
 }
 
+#contactFormBanner {
+    background-image: url(./images/SnappaContactBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
