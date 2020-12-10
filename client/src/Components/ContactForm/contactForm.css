@@ -1,0 +1,18 @@
+#emailForm {
+    border-radius: 30px;
+}
+
+#textarea1 {
+ /* border-radius: 30px; */
+ height: 200px;
+ width: 500px;
+ resize: none;
+ 
+}
+
+#contactMe {
+    color: white;
+}
+#sendEmail {
+    border-radius: 20px;
+}   

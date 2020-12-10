@@ -53,6 +53,11 @@ function Portfolio() {
                   About
                 </Link>
               </li>
+              <li>
+                <Link to="/Resume" class="black-text bold800">
+                  Resume
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
