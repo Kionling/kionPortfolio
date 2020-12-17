@@ -2,7 +2,7 @@ const express = require("express")
 const app = express();
 const PORT = process.env.PORT || 4444
 const routes = require("./routes/html-routes")
-
+const sequelize = require("sequelize");
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json());
 
